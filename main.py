@@ -1,8 +1,6 @@
-'''The program you are describing is a file sharing program that uses an AWS EC2 instance and Apache2 to share
-files with ease. It works by first uploading the file to the EC2 instance. Once the file is uploaded, the program
-generates a QR code that contains the file's URL. The QR code can then be shared with anyone who wants to download
-the file. When the QR code is scanned, the user will be taken to the file's URL, where they can download it directly
-from the AWS server.'''
+'''file sharing program that uses an AWS EC2 instance and Apache2 to share files with ease. It works by first uploading the file to the EC2 instance. Once the file is uploaded,
+the program generates a QR code that contains the file's URL. The QR code can then be shared with anyone who wants to download the file. When the QR code is scanned, the user 
+will be taken to the file's URL, where they can download it directlyfrom the AWS server.'''
 
 import os
 import boto3
